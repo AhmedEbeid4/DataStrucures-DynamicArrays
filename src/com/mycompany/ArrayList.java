@@ -102,10 +102,6 @@ public class ArrayList{
         return af[size-1];
     }
     public int[] toArray(){
-        int[] y = new int[size];
-        for (int i=0;i<size;i++){
-            y[i]=af[i];
-        }
-        return y;
+       return af;
     }
 }
